@@ -1,0 +1,161 @@
+.one
+{
+	background-color: black ;
+	width: 500px;
+	height: 500px;
+	font-size: 50px;
+	padding: 50px;
+}
+
+@keyframes ex {
+	from {transform: translate(50px); }
+	to { transform: translate(470px); }
+
+}
+.a
+{
+color: green;
+margin-top: 50px;
+animation-name: ex ;
+animation-duration:  4s;
+}
+
+.b
+{
+color: red;
+margin-top: 50px;
+animation-name: ex ;
+animation-duration:  8s;
+}
+
+.c
+{
+color: blue;
+margin-top: 50px;
+animation-name: ex ;
+animation-duration:  6s;
+}
+
+.d
+{
+color: pink;
+margin-top: 50px;
+animation-name: ex ;
+animation-duration: 10s;
+}
+
+@keyframes example {
+	from { background-color: red; }
+	to { background-color: yellow; }
+}
+.two
+{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	animation-name: example ;
+	animation-duration:  4s;
+
+}
+
+.three
+{
+	width: 200px;
+	height: 250px;
+	background-color: black;
+	padding-top: 5px;
+	margin-left: 40px;
+}
+
+@keyframes exampl {
+	from { background-color: black; }
+	to { background-color: red; }
+}
+.th1
+{
+	border-radius: 100%;
+    margin-left: 70px;
+    margin-top: 15px;
+	width: 60px;
+	height: 60px;
+	background-color: black;
+    animation-name: exampl ;
+	animation-duration:  2s;
+}
+
+@keyframes examp {
+	from { background-color: black; }
+	to { background-color: orange; }
+}
+.th2
+{
+	border-radius: 100%;
+    margin-left: 70px;
+    margin-top: 15px;
+	width: 60px;
+	height: 60px;
+	background-color: black;
+    animation-name: examp ;
+	animation-duration:  2s;
+	animation-delay: 2s;
+
+}
+
+
+@keyframes exam {
+	from { background-color: black; }
+	to { background-color: green; }
+}
+.th3
+{
+	border-radius: 100%;
+    margin-left: 70px;
+    margin-top: 15px;
+	width: 60px;
+	height: 60px;
+	background-color: black;
+    animation-name: exam ;
+	animation-duration: 2s;
+	animation-delay: 4s;
+}
+
+.four
+{
+	margin-left: 115px;
+	width: 50px;
+	height: 300px;
+	background-color: black;
+}
+
+.five
+{
+	margin-top: 50px;
+	margin-left: 100px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border : solid black;
+	position: absolute;
+	animation-name: t ;
+     animation: t 2s linear infinite;
+}
+
+.five1
+{
+	border-bottom: solid black;
+	margin: 47px;
+	width: 33px;
+}
+@keyframes t
+{
+	to 
+	{
+		transform: rotate(360deg);
+	}
+}
+
+.five:hover 
+{
+ animation-play-state: paused;
+}
+

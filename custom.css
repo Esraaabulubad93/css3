@@ -1,0 +1,54 @@
+.one
+{
+background: linear-gradient( red , yellow);
+}
+.a
+{  
+	width: 100px;
+	height: 100px;
+	border: black solid ;
+	transform: translate(50px,100px);
+
+}
+.b
+{
+	width: 100px;
+	height: 100px;
+	border: black solid ;
+	transform: rotate(45deg);
+}
+
+.a1
+{  
+	margin: 100px;
+	margin-top: 300px;
+	width: 100px;
+	height: 100px;
+	border: black solid ;
+	transform: scale(2,3);
+	
+}
+.b1
+{
+	margin: 100px;
+	margin-top: 200px;
+	width: 100px;
+	height: 100px;
+	border: black solid ;
+	transform: skew(20deg, 30deg);
+}
+.c
+{
+	margin-left: 40px;
+width: 100px;
+height: 100px;
+background-color: red;
+transition: width 4s ,height 4s, transform 4s;
+}
+.c:hover
+{
+	width: 300px;
+	height: 300px;
+	transform: rotate(45deg);
+	transition-delay: 2s;
+}
